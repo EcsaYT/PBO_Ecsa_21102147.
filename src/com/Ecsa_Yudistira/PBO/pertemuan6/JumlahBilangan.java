@@ -23,15 +23,14 @@ public class JumlahBilangan {
             System.out.println("Input tidak valid, Harap masukkana Bilangan bulat!");
         }
 
+        Scanner input2 = new Scanner(System.in);
 
         try {
-            Scanner input3 = new Scanner(System.in);
             System.out.println("Masukkan bilangan : ");
-            int bilangan3 = input3.nextInt();
+            int bilangan3 = input2.nextInt();
 
-            Scanner input4 = new Scanner(System.in);
             System.out.println("Masukkan pembaginya : ");
-            int bilangan4 = input4.nextInt();
+            int bilangan4 = input2.nextInt();
 
             int hasil2 = bilangan3/bilangan4;
             System.out.println(bilangan3 + " / " + bilangan4 + " = " + hasil2);
