@@ -3,7 +3,7 @@ package com.Ecsa_Yudistira.PBO.pertemuan6;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class JumlahBilangan {
+public class BagiBilangan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
